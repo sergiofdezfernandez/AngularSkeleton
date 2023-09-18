@@ -28,5 +28,18 @@
             "error",
             "never"
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": [
+                "karma.conf.js"
+            ],
+            "env": {
+                "node": true
+            },
+            "rules": {
+                // Add your Karma-specific ESLint rules here
+            }
+        }
+    ]
 }
