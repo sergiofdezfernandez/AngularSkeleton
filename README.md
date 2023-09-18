@@ -3,26 +3,17 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 This is a test repository that has the basic configurations of an angular environment with formatter, linter and commit controller.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+How to enhance development flow with tools which allow you ensure your commits following code style rules, passing rules etc...
 
-## Code scaffolding
+## Tools
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Husky is based on git hooks which are scripts executed before and after any command on git, for example we can create git pre-commit hook in order to execute linter and test battery which are executed before doing commit, if everything goes well commit is executed otherwise the commit won't be executed. With this way we ensure that our repository is always in a good state with passed tests and with the right code style.
 
-## Build
+Lint-staged we only execute the linter throug the staged files by saving us the rest of files which are supposed to be in a the correct state. With this way we improve the performance.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## lint-staged config
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+All files with those extensions must execute eslint.
+file : [.lintstagedrc](https://link-url-here.org)
