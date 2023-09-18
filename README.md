@@ -16,4 +16,4 @@ Lint-staged we only execute the linter throug the staged files by saving us the 
 ## lint-staged config
 
 All files with those extensions must execute eslint.
-file : [.lintstagedrc](https://link-url-here.org)
+file : [.lintstagedrc]()
