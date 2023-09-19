@@ -8,7 +8,7 @@ import { Component } from '@angular/core'
 export class AppComponent {
 	title = 'AngularSkeleton'
 
-	constructor() {
+	constructor(arg1: string, arg: string, arg3: string, arg4: string, arg5: string, arg6: string) {
 		console.log('Test')
 	}
 }

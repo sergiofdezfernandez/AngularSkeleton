@@ -32,10 +32,17 @@
           }
         ],
         "@typescript-eslint/quotes": [
-          "error",
+          "warn",
           "single",
           {
             "allowTemplateLiterals": true
+          }
+        ],
+        "max-len": [
+          "warn",
+          {
+            "code": 80,
+            "ignoreComments": true
           }
         ]
       }
