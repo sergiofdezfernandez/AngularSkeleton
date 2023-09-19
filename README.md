@@ -17,3 +17,4 @@ Lint-staged we only execute the linter throug the staged files by saving us the 
 
 All files with those extensions must execute eslint.
 file : [.lintstagedrc](https://github.com/sergiofdezfernandez/AngularSkeleton/blob/master/.lintstagedrc)
+ESLint Documentation: [.eslintrc.json] (https://eslint.org/docs/latest/)
