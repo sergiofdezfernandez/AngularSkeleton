@@ -5,7 +5,7 @@ This is a test repository that has the basic configurations of an angular enviro
 
 ## Description
 
-How to enhance development flow with tools which allow you ensure your commits following code style rules, passing rules etc...
+How to enhance development flow with tools which allow you ensure your commits following code style rules, passing tests etc...
 
 ## Tools
 
